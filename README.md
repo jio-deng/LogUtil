@@ -8,8 +8,8 @@ A useful log kit.
 
 ## How to use ?
 ### initialize
-#### 1.call >LogUtil.init();< in Application.onCreate.
-#### 2.call >LogUtil.xxx(Context context, String msg)< when u need it.
+#### 1.call 'LogUtil.init();' in Application.onCreate.
+#### 2.call 'LogUtil.xxx(Context context, String msg)' when u need it.
 
 ------------------------
 
