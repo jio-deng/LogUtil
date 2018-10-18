@@ -31,7 +31,7 @@ public class LogHandlerThread extends HandlerThread {
 
     private LogHandlerThread(String name){
         super(name);
-        handler = new Handler(Looper.myLooper()) {
+        handler = new Handler(getLooper()) {
             @Override
             public void handleMessage(Message msg) {
                 Message message = handler.obtainMessage();
